@@ -15,8 +15,6 @@ void main()
 {int n;
 printf("\nEnter the number of characters in the expression:");
 scanf("%d",&n);
-if(n>0)
-{
 char exp[n+1];
 printf("\nEnter the expression:");
 scanf("\n%[^\n]s",exp);
@@ -53,9 +51,6 @@ push(arr,n,&top,*ptr-'0');
 ptr++;
 }
 printf("The result is:%d",pop(arr,&top));
-}
-else
-printf("Invalid Input");
 }
 
 
