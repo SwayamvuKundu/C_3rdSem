@@ -3,7 +3,7 @@
 #include<time.h>
 static long int count=0;
 int* insert(int* arr,int n)
-{int i,j,key,f,v;
+{int i,j,key,f=0,v;
 srand(time(NULL));
 while(f<n)
 {v=rand();
